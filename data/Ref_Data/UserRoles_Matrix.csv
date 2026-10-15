@@ -1,0 +1,28 @@
+﻿Permission,Trader,Operations User,Operations Manager,ML Admin,Sys Admin
+Submit Individual Trades,Yes,No,No,No,Yes
+Submit Bulk Trades,Yes,No,No,No,Yes
+View Trade Details,Yes,Yes,Yes,No,Yes
+View AI Risk Score,Yes,No,No,No,Yes
+View Exception Dashboard,No,Yes,Yes,No,Yes
+Repair Queue Management,No,Yes,Yes,No,Yes
+Apply/Modify Fixes,No,Yes,Yes,No,Yes
+Bulk Queue Operations,No,Yes,Yes,No,Yes
+Assign Trades to Users,No,Yes,Yes,No,Yes
+Reassign Trades Between Users,No,No,Yes,No,Yes
+Approve High-Priority Resolutions,No,No,Yes,No,Yes
+View Team Performance Metrics,No,No,Yes,No,Yes
+Generate Compliance Reports,No,No,Yes,No,Yes
+View Model Performance Metrics,No,No,No,Yes,Yes
+Monitor Data Drift (PSI),No,No,No,Yes,Yes
+View Feature Importance,No,No,No,Yes,Yes
+Trigger Model Retraining,No,No,No,Yes,Yes
+Promote Model Versions,No,No,No,Yes,Yes
+Configure Alpha/Beta Weights,No,No,No,Yes,Yes
+Configure Business Rules,No,No,No,No,Yes
+Configure System Parameters,No,No,No,No,Yes
+Manage User Accounts,No,No,No,No,Yes
+Role Assignment,No,No,No,No,Yes
+Manage API Keys,No,No,No,No,Yes
+Configure Monitoring Alerts,No,No,No,No,Yes
+View Complete Audit Trail,No,Yes (Assigned),Yes (All),No,Yes
+,,,,,

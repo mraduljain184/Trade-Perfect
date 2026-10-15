@@ -1,0 +1,27 @@
+# Trade Perfect backend - pinned versions (Python 3.11).
+# BE-1 set. The ML module adds scikit-learn / shap / joblib in ML-2; later BE steps add reportlab / openai.
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.1.4
+alembic==1.20.0
+psycopg[binary]==3.3.6
+pydantic==2.14.0
+pydantic-settings==2.15.0
+PyJWT==2.15.1
+bcrypt==5.0.0
+python-multipart==0.0.32
+pandas==3.0.6
+numpy==2.4.6
+tzdata==2026.5
+reportlab==4.5.1          # PDF audit reports (BE-5)
+httpx==0.28.1              # chatbot LLM calls (BE-7) and the test client
+# --- testing ---
+pytest==9.1.1
+pytest-cov==7.1.0
+joblib==1.6.0
+llvmlite==0.50.0
+numba==0.68.0
+scikit-learn==1.9.1
+scipy==1.17.1
+shap==0.51.0
+threadpoolctl==3.7.0

@@ -1,0 +1,6 @@
+﻿Id,Role,Primary Function,Key Access
+101,Trader,Submit and track trade bookings,"Trade Booking Form, Trade Details"
+102,Operations User,Handle settlement exceptions,"Exception Dashboard, Repair Queue"
+103,Operations Manager,Oversee operations team performance,"Reports, Team Management, Approvals"
+104,ML Model Administrator,Manage AI/ML model lifecycle,"Model Monitoring, Retraining, Configuration"
+105,System Administrator,Full system administration,"All system functions, User Management"

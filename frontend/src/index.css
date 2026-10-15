@@ -1,0 +1,94 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #e8ecf1;
+  color: #1f1f1f;
+}
+
+.ant-layout-sider-light,
+.tp-app-sider {
+  background: #fafbfc !important;
+}
+
+/* Ant Design sider was clipping menu items after ~3 entries (Repair queue hidden below fold). */
+.tp-app-sider .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tp-sider-brand {
+  flex-shrink: 0;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tp-sider-brand-bnp {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #007a4d 0%, #00a86b 55%, #00965e 100%);
+  border-bottom: none;
+  padding: 18px 16px;
+}
+
+.tp-bnp-logo-img {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  object-fit: cover;
+  display: block;
+}
+
+.tp-sider-brand-title {
+  display: block;
+  color: #fff !important;
+  font-size: 15px !important;
+  letter-spacing: 0.04em;
+}
+
+.tp-sider-brand-sub {
+  display: block;
+  color: rgba(255, 255, 255, 0.88) !important;
+  font-size: 11px !important;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+.tp-btn-bnp.ant-btn-primary {
+  background: #00965e;
+}
+
+.tp-btn-bnp.ant-btn-primary:not(:disabled):hover {
+  background: #007a4d;
+}
+
+.tp-sider-menu-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.tp-sider-menu {
+  border-inline-end: none !important;
+}
+
+.tp-app-header {
+  background: #fff;
+  padding-inline: 24px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
